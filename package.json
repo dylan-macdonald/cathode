@@ -1,0 +1,22 @@
+{
+  "name": "cathode",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed"
+  },
+  "dependencies": {
+    "jsfxr": "^1.4.0",
+    "phaser": "^3.88.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0"
+  }
+}
